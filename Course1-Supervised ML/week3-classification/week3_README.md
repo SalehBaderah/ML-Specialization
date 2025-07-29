@@ -13,8 +13,9 @@ is a supervised learning algorithm used for binary classification,It predicts th
 
 - Then applies the sigmoid function to squash the output between 0 and 1
   - $σ(z) = \frac{1}{1+e^{-z}}\tag{1}$
-  
-![image.png](attachment:0ef3a2cb-2c8f-4321-a0ba-a50833106ad0.png)
+  - 
+  <img width="400" height="381" alt="Screenshot 2025-07-28 182946" src="https://github.com/user-attachments/assets/065604c8-78ff-4edf-8451-6a436814c26f" />
+
 
 ---
 
@@ -22,38 +23,28 @@ is a supervised learning algorithm used for binary classification,It predicts th
 
 Recall that for logistic regression, the cost function is of the form 
 
-$$ J(\mathbf{w},b) = \frac{1}{m} \sum_{i=0}^{m-1} \left[ loss(f_{\mathbf{w},b}(\mathbf{x}^{(i)}), y^{(i)}) \right] \tag{1}$$
+<img width="464" height="93" alt="image" src="https://github.com/user-attachments/assets/4908e479-59f2-47cc-ba05-d1ad242a81fa" />
+
 
 where
 * $loss(f_{\mathbf{w},b}(\mathbf{x}^{(i)}), y^{(i)})$ is the cost for a single data point, which is:
 
     $$loss(f_{\mathbf{w},b}(\mathbf{x}^{(i)}), y^{(i)}) = -y^{(i)} \log\left(f_{\mathbf{w},b}\left( \mathbf{x}^{(i)} \right) \right) - \left( 1 - y^{(i)}\right) \log \left( 1 - f_{\mathbf{w},b}\left( \mathbf{x}^{(i)} \right) \right) \tag{2}$$
     
-*  where m is the number of training examples in the data set and:
-$$
-\begin{align}
-  f_{\mathbf{w},b}(\mathbf{x^{(i)}}) &= g(z^{(i)})\tag{3} \\
-  z^{(i)} &= \mathbf{w} \cdot \mathbf{x}^{(i)}+ b\tag{4} \\
-  g(z^{(i)}) &= \frac{1}{1+e^{-z^{(i)}}}\tag{5} 
-\end{align}
-$$
 
 
 ---
 # Gradient descent for logistic regression
 Recall the gradient descent algorithm utilizes the gradient calculation:
-$$\begin{align*}
-&\text{repeat until convergence:} \; \lbrace \\
-&  \; \; \;w_j = w_j -  \alpha \frac{\partial J(\mathbf{w},b)}{\partial w_j} \tag{1}  \; & \text{for j := 0..n-1} \\ 
-&  \; \; \;  \; \;b = b -  \alpha \frac{\partial J(\mathbf{w},b)}{\partial b} \\
-&\rbrace
-\end{align*}$$
+
+
+<img width="326" height="134" alt="image" src="https://github.com/user-attachments/assets/dc41858f-8c04-4432-9b5c-c16c8dda5107" />
+
 
 Where each iteration performs simultaneous updates on $w_j$ for all $j$, where
-$$\begin{align*}
-\frac{\partial J(\mathbf{w},b)}{\partial w_j}  &= \frac{1}{m} \sum\limits_{i = 0}^{m-1} (f_{\mathbf{w},b}(\mathbf{x}^{(i)}) - y^{(i)})x_{j}^{(i)} \tag{2} \\
-\frac{\partial J(\mathbf{w},b)}{\partial b}  &= \frac{1}{m} \sum\limits_{i = 0}^{m-1} (f_{\mathbf{w},b}(\mathbf{x}^{(i)}) - y^{(i)}) \tag{3} 
-\end{align*}$$
+
+<img width="676" height="300" alt="image" src="https://github.com/user-attachments/assets/34f9d835-6e96-486b-b4d8-203a050f0081" />
+
 
 * m is the number of training examples in the data set      
 * $f_{\mathbf{w},b}(x^{(i)})$ is the model's prediction, while $y^{(i)}$ is the target
