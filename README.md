@@ -20,7 +20,7 @@ This repository contains my progress and notes of [Machine Learning Specializati
 |----|------------------------------------------------------------|--------------------------------------------------------------------------------|----------------------------------------|
 | 1  | Supervised Machine Learning: Regression and Classification | [Course 1](https://www.coursera.org/learn/machine-learning)                   | [Notes](./Course1-SupervisedML/notes.md) |
 | 2  | Advanced Learning Algorithms                               | [Course 2](https://www.coursera.org/learn/advanced-learning-algorithms)      | [Notes](./Course2-AdvancedAlgos/notes.md) |
-| 3  | Unsupervised Learning, Recommenders, Reinforcement Learning | [Course 3](https://www.coursera.org/learn/unsupervised-learning-recommenders-reinforcement-learning?specialization=machine-learning-introduction) | [Notes](./Course3-UnsupervisedRL/notes.md) |
+| 3  | Unsupervised Learning,Reinforcement Learning | [Course 3](https://www.coursera.org/learn/unsupervised-learning-recommenders-reinforcement-learning?specialization=machine-learning-introduction) | [Notes](./Course3-UnsupervisedRL/notes.md) |
 
 
 ##  Tools Used
