@@ -104,23 +104,21 @@ $$
 ## 1-  Maximum Normalization 
 
 Maximum normalization scales each feature by dividing it by its `maximum value`, so that all feature values lie in the range [0, 1].
-$$
-  Xscaled= \dfrac {x}{max(x)} 
-$$  
+
+<img width="259" height="70" alt="image" src="https://github.com/user-attachments/assets/0efc44b7-e1b7-4cd0-af32-887790b1e9ef" />
+
 
 ## 2- z-score normalization
 
  all features will have a mean of 0 and a standard deviation of 1.
 
 formula:
-$$ Xscaled = \dfrac{x^{(i)}_j - \mu_j}{\sigma_j} \ $$ 
+
+<img width="271" height="90" alt="image" src="https://github.com/user-attachments/assets/ad7c6520-e69c-4048-b1f5-109ea087c6fa" />
 
 where $j$ selects a feature or a column in the $\mathbf{X}$ matrix. $µ_j$ is the mean of all the values for feature (j) and $\sigma_j$ is the standard deviation of feature (j).
 
-\begin{align}
-\mu_j &= \frac{1}{m} \sum_{i=0}^{m-1} x^{(i)}_j \\\
-\sigma^2_j &= \frac{1}{m} \sum_{i=0}^{m-1} (x^{(i)}_j - \mu_j)^2  \
-\end{align}
+
 
 
 ## 3-Mean normailzation
@@ -128,10 +126,6 @@ where $j$ selects a feature or a column in the $\mathbf{X}$ matrix. $µ_j$ is th
 - The values are typically in the range [−1,1]
 
 formula:
-$$xscaled = \dfrac{x - \mu}{max(x)-min(x)} \ $$ 
 
-where 
-
-- $ \mu$ = `mean` of the feature
-- $ max(x), min(𝑥) = $ max and min values of the feature
+<img width="375" height="68" alt="image" src="https://github.com/user-attachments/assets/b2b17eaa-ff40-4675-bb14-01506816a9f1" />
 
