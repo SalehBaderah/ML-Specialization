@@ -3,7 +3,7 @@
 This is the **first course** in the Machine Learning Specialization by [DeepLearning.AI](https://www.deeplearning.ai/)
  
 
-covering  topics such as simple linear regression, multiple variables LR, Logistic R, cost functions, and gradient descent.
+covering  topics such as `simple linear regression`, `multiple variables LR`, `Logistic R`, `cost functions`, `and gradient descent`.
 
 ---
 
@@ -11,7 +11,7 @@ covering  topics such as simple linear regression, multiple variables LR, Logist
 
 | Week | Description                      | materials                           
 |------|----------------------------------|------------------------------
-| 1    | Introduction & Model             | [Week 1](slides/week1.pdf) 
-| 2    | Regression with multiple variables    | [Week 2](slides/week2.pdf) 
-| 3    | Classification                 | [Week 3](slides/week3.pdf) | 
+| 1    | Introduction & Model             | [Week 1](https://github.com/SalehBaderah/ML-Specialization/tree/main/Course1-Supervised%20ML/week1-Intro%20to%20ML) 
+| 2    | Regression with multiple variables    | [Week 2](https://github.com/SalehBaderah/ML-Specialization/tree/main/Course1-Supervised%20ML/week2-Regression%20with%20multiple%20input%20variable) 
+| 3    | Classification                 | [Week 3](https://github.com/SalehBaderah/ML-Specialization/tree/main/Course1-Supervised%20ML/week3-classification) | 
 
