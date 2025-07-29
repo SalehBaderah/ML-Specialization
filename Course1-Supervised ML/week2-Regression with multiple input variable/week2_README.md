@@ -1,12 +1,12 @@
 | Week | Description                      | Slides 📄                          | Notebooks 📓                       |
 |------|----------------------------------|------------------------------------|-----------------------------------|
-| 2    | Regression with Multiple Variables             | [Week 2 Slides](slides/week1.pdf) | [Week 2 Notebook](notebooks/week1.ipynb) |
+| 2    | Regression with Multiple Variables             | [Week 2 Slides](https://github.com/SalehBaderah/ML-Specialization/tree/main/Course1-Supervised%20ML/week2-Regression%20with%20multiple%20input%20variable/Handwritten_notes_slides) | [Week 2 Notebook](https://github.com/SalehBaderah/ML-Specialization/tree/main/Course1-Supervised%20ML/week2-Regression%20with%20multiple%20input%20variable/Notebooks) |
 
 
 #  Regression with Multiple Variables
 
+<img width="650" height="231" alt="Screenshot 2025-07-28 175423" src="https://github.com/user-attachments/assets/f9ddf817-6382-4714-a8a8-ae9de639dd73" />
 
-![Screenshot 2025-07-28 175423.png](attachment:d5d5a937-2bce-4080-85e8-b6b57b5a1b0f.png)
 
 ---
 
