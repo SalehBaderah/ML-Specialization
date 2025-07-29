@@ -1,6 +1,6 @@
 | Week | Description                      | Slides 📄                          | Notebook 📓                       |
 |------|----------------------------------|------------------------------------|-----------------------------------|
-| 1    | Introduction & Model             | [Week 1 Slides](slides/week1.pdf) | [Week 1 Notebook](notebooks/week1.ipynb) |
+| 1    | Introduction & Model             | [Week 1 Slides]([slides/week1.pdf](https://github.com/SalehBaderah/ML-Specialization/blob/main/Course1-Supervised%20ML/week1-Intro%20to%20ML/Slides/C1_W1.pdf)) | [Week 1 Notebook](notebooks/week1.ipynb) |
 
 
 #  Simple Linear Regression
