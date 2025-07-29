@@ -1,4 +1,4 @@
-# 📘 Machine Learning Specialization – Course 1 
+# 📘 Machine Learning Specialization – Course 1  
 
 This is the **first course** in the Machine Learning Specialization by [DeepLearning.AI](https://www.deeplearning.ai/)
  
