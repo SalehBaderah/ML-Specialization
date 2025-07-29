@@ -1,6 +1,6 @@
 | Week | Description                      | Slides 📄                          | Notebooks 📓                       |
 |------|----------------------------------|------------------------------------|-----------------------------------|
-| 3    | classification             | [Week 3 Slides](slides/week1.pdf) | [Week 3 Notebooks](notebooks/week1.ipynb) |
+| 3    | classification             | [Week 3 Slides](https://github.com/SalehBaderah/ML-Specialization/blob/main/Course1-Supervised%20ML/week3-classification/Slides/C1_W3.pdf) | [Week 3 Notebooks](https://github.com/SalehBaderah/ML-Specialization/tree/main/Course1-Supervised%20ML/week3-classification/Notebooks) |
 
 
 # Logistic Regression 
