@@ -13,9 +13,13 @@ Simple Linear Regression models the relationship between **one input (feature)**
 
 The model predicts the output $\hat{y}$ as a linear function of the input $x^{(i)}$:
 
-$$
-\hat{y}^{(i)} = wx^{(i)} + b \tag{1}
-$$
+
+
+<img width="123" height="26" alt="image" src="https://github.com/user-attachments/assets/7f5ad72c-2a7b-4d20-b3f2-4fa68836abe7" />
+
+
+
+
 
 - $\hat{y}^{(i)}$: predicted output  
 - $x^{(i)}$: input feature of the $i^{th}$ example  
@@ -30,9 +34,9 @@ The cost function measures the difference between the model's predictions $\hat{
 
 We use the **Mean Squared Error (MSE)**:
 
-$$
-J(w, b) = \frac{1}{2m} \sum_{i=1}^{m} \left( \hat{y}^{(i)} - y^{(i)} \right)^2 \tag{2}
-$$
+<img width="410" height="94" alt="image" src="https://github.com/user-attachments/assets/d6878fe2-3d26-42bd-a0ee-3430853e303c" />
+
+
 
 - $m$: number of training examples  
 - $y^{(i)}$: actual target value  
@@ -52,23 +56,21 @@ This is equivalent to $\hat{y}^{(i)}$.
 
 **Gradients (Partial Derivatives):**
 
-$$
-\frac{\partial J(w, b)}{\partial w} = \frac{1}{m} \sum\limits_{i=0}^{m} \left( \hat{y}^{(i)} - y^{(i)} \right) \cdot x^{(i)} \tag{3}
-$$
+<img width="411" height="93" alt="image" src="https://github.com/user-attachments/assets/05b1722b-cdbc-4c90-95d7-198add74eb3c" />
 
-$$
-\frac{\partial J(w, b)}{\partial b} = \frac{1}{m} \sum\limits_{i=0}^{m} \left( \hat{y}^{(i)} - y^{(i)} \right) \tag{4}
-$$
+
+
+
+<img width="361" height="90" alt="image" src="https://github.com/user-attachments/assets/b15c6115-dee5-4e67-bf50-83b439e0abd1" />
+
 
 **Parameter Update Rules:**
 
-$$
-w := w - \alpha \cdot \frac{\partial J(w, b)}{\partial w} \tag{5}
-$$
+<img width="281" height="77" alt="image" src="https://github.com/user-attachments/assets/caba0608-2777-4891-ac64-ba9c0b509ba1" />
 
-$$
-b := b - \alpha \cdot \frac{\partial J(w, b)}{\partial b} \tag{6}
-$$
+
+<img width="267" height="77" alt="image" src="https://github.com/user-attachments/assets/9b3cd614-f3a4-43f8-999d-68c93252d6ad" />
+
 
 ---
 
