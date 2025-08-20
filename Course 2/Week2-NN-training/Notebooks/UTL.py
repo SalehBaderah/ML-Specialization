@@ -1,3 +1,5 @@
+#Generating data for week2 assignment
+
 import matplotlib.pyplot as plt
 import numpy as np
 from tensorflow.keras.datasets import mnist
