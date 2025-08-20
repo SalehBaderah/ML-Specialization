@@ -19,7 +19,7 @@ This repository contains my progress and notes of [Machine Learning Specializati
 | #  | Course Title                                               | Coursera Link                                                                 | My Notes                              |
 |----|------------------------------------------------------------|--------------------------------------------------------------------------------|----------------------------------------|
 | 1  | Supervised Machine Learning: Regression and Classification | [Course 1](https://www.coursera.org/learn/machine-learning)                   | [Notes](https://github.com/SalehBaderah/ML-Specialization/tree/main/Course1-Supervised%20ML) |
-| 2  | Advanced Learning Algorithms                               | [Course 2](https://www.coursera.org/learn/advanced-learning-algorithms)      |-|
+| 2  | Advanced Learning Algorithms                               | [Course 2](https://www.coursera.org/learn/advanced-learning-algorithms)      |[Notes](https://github.com/SalehBaderah/ML-Specialization/tree/main/Course%202) ||
 | 3  | Unsupervised Learning,Reinforcement Learning | [Course 3](https://www.coursera.org/learn/unsupervised-learning-recommenders-reinforcement-learning?specialization=machine-learning-introduction) |-|
 
 
