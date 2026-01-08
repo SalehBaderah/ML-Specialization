@@ -1,6 +1,6 @@
 # 📘 Machine Learning Specialization
 
-This repository contains my progress and notes of [Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction) by [Andrew Ng](https://www.coursera.org/instructor/andrewng).
+This repository contains my progress and notes for Courses 1 and 2 of the [Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction) by [Andrew Ng](https://www.coursera.org/instructor/andrewng).
 
 ---
 
